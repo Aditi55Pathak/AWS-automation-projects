@@ -6,3 +6,11 @@ iam_console=aws_management_console.resource('iam')
 
 for each_user in iam_console.users.all():
     print(each_user.name)
+
+# Important key Concepts
+
+    # Session: Managing AWS console programmatically
+
+    # Resource : Resource is a high level object oriented service access
+    #           It is used to access the AWS services
+
